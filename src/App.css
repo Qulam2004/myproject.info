@@ -1,0 +1,23 @@
+*{
+    font-family: 'Cairo', sans-serif;
+}
+
+.logo{
+ width: 160px;
+ height: 55px;
+ margin-right: 10rem;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin-left: 4rem;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid blue ;
+}
+
+.navbar{
+    padding: 0px;
+}
