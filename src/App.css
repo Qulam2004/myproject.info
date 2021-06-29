@@ -5,7 +5,7 @@
 .logo{
  width: 160px;
  height: 55px;
-margin-right: 6rem;
+ margin: 0rem 7rem 0rem 1.7rem;
 }
 
 .nav-link{
@@ -14,7 +14,6 @@ margin-right: 6rem;
     
 }
 
-.nav-item
 
 .nav-link:hover{
     border-bottom: 1px solid blue ;
@@ -27,5 +26,5 @@ margin-right: 6rem;
 
 .navbar{
     padding: 0px;
-    position: relative;
+
 }
