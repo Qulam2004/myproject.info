@@ -12,13 +12,13 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <a className="nav-link text-primary" href="#">ANA SƏHİFƏ</a>
+              <a className="nav-link text-primary actived" href="#">ANA SƏHİFƏ</a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-primary" href="#">HAQQIMDA</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-primary" href="#">XİDMƏT</a>
+              <a className="nav-link text-primary" href="#">PROYEKTLƏRİM</a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-primary" href="#">ƏLAQƏ</a>

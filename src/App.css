@@ -1,5 +1,5 @@
 *{
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .logo{
@@ -10,21 +10,22 @@
 
 .nav-link{
     font-size: 16px;
-    margin-left: 4rem;
-    
+    margin-left: 3rem;
 }
 
 
 .nav-link:hover{
-    border-bottom: 1px solid blue ;
-    margin-bottom: 0px;
+    border-bottom: 2px solid blue ;
+    border-top: 2px solid blue;
+    box-shadow: 3px 4px 9px 2px #FFFFFF; 
+    box-shadow: 3px 4px 9px 2px #FFFFFF;
 }
 
 .nav-link:focus{
-    border-bottom: 1px solid;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue ;
 }
 
 .navbar{
-    padding: 0px;
-
+    padding: 3px;
 }
