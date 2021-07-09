@@ -1,11 +1,19 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .logo{
  width: 160px;
  height: 55px;
  margin: 0rem 10rem 0rem 1.7rem;
+}
+/* Navbar-ın style */
+.navbar{
+    z-index: 2;
+}
+
+nav{
+    z-index: 2;
 }
 
 .nav-link{
@@ -14,22 +22,87 @@
 }
 
 .nav-link{
-    border:2px solid #343A40;
-    border-radius: 14px;
+    border:2px solid #343A40;    
 }
 
 .nav-link:hover{
-    border-bottom: 2px solid blue ;
-    border-top: 2px solid blue;
-    box-shadow: 3px 4px 9px 2px #FFFFFF; 
-    box-shadow: 3px 4px 9px 2px #FFFFFF;
+    border-top: 2px solid yellow ;
+    
 }
 
 .nav-link:focus{
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue ;
+    border-top: 2px solid yellow;
+    
 }
 
 .navbar{
     padding: 3px;
 }
+
+/* Header-ın style */
+
+.header{
+    position: relative;
+    background-image: url(./bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.header-info h1{
+    text-transform: uppercase;
+    color: rgb(199, 197, 197);
+}
+
+/* Headerda olan a linkine style verilir */
+
+.button{
+    padding: 0.7rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+    margin-top: 8.5rem;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 3px 4px 7px 3px black;
+    z-index: 1;
+}
+
+.button:hover{
+    cursor: pointer !important;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+
+/* React Type style verilir */
+
+.typed-text{
+    font-size: 2.5rem;
+    color: rgb(199, 197, 197);
+}
+
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+
+
+
