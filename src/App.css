@@ -82,7 +82,7 @@ nav{
 }
 
 .button:hover{
-    cursor: pointer !important;
+    cursor: pointer;
     background-color: blue;
     text-decoration: none;
     color: white;
