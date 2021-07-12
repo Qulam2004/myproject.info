@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header-info">
-                <h1>Qulamov Qulamın Rəsmi veb səhifəsi</h1>
+                <h1>Qulamzadə Qulamın Rəsmi veb səhifəsi</h1>
                 <Typed
                     className="typed-text"
                     strings={[

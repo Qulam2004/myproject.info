@@ -3,11 +3,11 @@
 }
 
 .logo{
- width: 160px;
- height: 55px;
- margin: 0rem 10rem 0rem 1.7rem;
+ width: 175px;
+ height: 70px;
+ margin: 0rem 9rem 0rem 1.7rem;
 }
-/* Navbar-ın style */
+/* Navbar kampanentinin style */
 .navbar{
     z-index: 2;
 }
@@ -26,20 +26,21 @@ nav{
 }
 
 .nav-link:hover{
-    border-top: 2px solid yellow ;
+    border-top: 2px solid blue;
+    box-shadow: 1px 2px 15px 5px #007BFF; 
+    box-shadow: 1px 2px 15px 5px #007BFF;;
     
 }
 
 .nav-link:focus{
-    border-top: 2px solid yellow;
-    
+    border-top: 2px solid blue;
 }
 
 .navbar{
     padding: 3px;
 }
 
-/* Header-ın style */
+/* Header kampanentinin style */
 
 .header{
     position: relative;
@@ -68,7 +69,7 @@ nav{
     color: rgb(199, 197, 197);
 }
 
-/* Headerda olan a linkine style verilir */
+/* Header kampanentinde olan a-ya style */
 
 .button{
     padding: 0.7rem;
@@ -88,7 +89,7 @@ nav{
     color: white;
 }
 
-/* React Type style verilir */
+/* React Type style */
 
 .typed-text{
     font-size: 2.5rem;
@@ -102,6 +103,33 @@ nav{
     z-index: 1;
 
 }
+
+
+/* About kampenentinin style */
+.profile-edge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text h3{
+    width: 50vw;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.profile{
+    border: 1px solid blue;
+    border-radius: 10rem;
+    padding: 1rem;
+}
+
+.about-text h1{
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 15px;
+}
+
 
 
 
