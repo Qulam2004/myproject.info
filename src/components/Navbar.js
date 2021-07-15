@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarLogo from '../logo.png'
-// FontAwesome ikon
+// FontAwesome icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -21,7 +21,7 @@ function Navbar() {
             <a className="nav-link text-primary" href="#">HAQQIMDA</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-primary" href="#">PROYEKTLƏRİM</a>
+            <a target="_blank" className="nav-link text-primary" href="https://github.com/Qulam2004">PROYEKTLƏRİM</a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-primary" href="#">ƏLAQƏ</a>

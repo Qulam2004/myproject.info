@@ -13,7 +13,9 @@ function About() {
 
                 <div className="about-text col-lg-6 col-xm-12">
                     <h1>Haqqımda</h1>
-                    <p>Mən Qulamzadə Qulam mənim 17 yaşım var,mən 123№ tam orta  məktəbi bitirmişəm və 18№ bakı peşə liseyi "Aşpaz" üzrə oxuyuram,IT brains training center kursunu "Müasir veb proqramlaşdırma" üzrə sertifikat və fərqlənmə ilə bitirdim.Arzum odu ki inşallah çox yaxşı bir proqramist olum.</p>
+                    <p>Mən Qulamzadə Qulam mənim 17 yaşım var,mən 123№ tam orta  məktəbi bitirmişəm və 18№ bakı peşə 
+                     liseyi "Aşpaz" üzrə oxuyuram,IT brains training center kursunu "Müasir veb proqramlaşdırma"
+                     üzrə sertifikat və fərqlənmə ilə bitirdim.Arzum odu ki inşallah yaxşı bir web proqramçı olum.</p>
                     <h3>Orxan məllim və Ənvər məllim sizə təşəkkür edirəm.</h3>
                 </div>
             </div>
