@@ -1,9 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+// Components here
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/About'
 import Services from './components/Services'
+import Experience from './components/Experience';
 import Particles from 'react-particles-js'
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
     <Header />
     <About />
     <Services />
+    <Experience />
     </>
   );
 }
