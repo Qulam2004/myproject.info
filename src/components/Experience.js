@@ -33,7 +33,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2021</h3>
-                        <p>It Brains Training Center kursunda "Müasir web proqramlaşdırma" üzrə dərs aldım.</p>
+                        <p>IT Brains Training Center kursunda "Müasir web proqramlaşdırma" üzrə dərs aldım.</p>
                     </div>
                 </div>
             </div>
