@@ -10,7 +10,7 @@ const Experience = () => {
             <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
-                    <div className="timeline-content">
+                    <div className="timeline-content text">
                         <h3>2013-2021</h3>  
                         <p>123№ tam orta məktəbini bitirdim.</p>
                     </div>
@@ -31,7 +31,7 @@ const Experience = () => {
             <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
-                    <div className="timeline-content">
+                    <div className="timeline-content text">
                         <h3>2021</h3>
                         <p>IT Brains Training Center kursunda "Müasir web proqramlaşdırma" üzrə dərs aldım.</p>
                     </div>

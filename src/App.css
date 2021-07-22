@@ -62,16 +62,17 @@ nav {
 .header-info h1 {
     text-transform: uppercase;
     color: #007BFF;
+    font-size: xx-large;
 }
 
 /* Header kampanentinde olan a-ya style */
 
 .button {
-    padding: 0.7rem;
+    padding: 0.675rem;
     text-transform: uppercase;
-    background-color: #3c93f0;
+    background-color: rgb(236, 236, 35);
     margin-top: 2.5rem;
-    color: white;
+    color: black;
     border: 1px solid white;
     box-shadow: 3px 4px 7px 3px black;
     z-index: 1;
@@ -79,7 +80,7 @@ nav {
 
 .button:hover {
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: rgb(184, 184, 0);
     text-decoration: none;
     color: white;
 }
@@ -87,7 +88,7 @@ nav {
 /* React Type style */
 
 .typed-text {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     color: white;
     margin: 10px;
 }
@@ -109,22 +110,21 @@ nav {
     align-items: center;
 }
 
-.about-text h3 {
-    width: 50vw;
-    margin-top: 40px;
-    font-size: 25px;
-    text-align: justify;
-}
 
 .profile {
     border: 1px solid #007BFF;
     border-radius: 10rem;
     padding: 1rem;
+    width: 16rem;
+    height: 16rem;
+    margin-left: 6rem;
+    margin-top: 3rem;
 }
 
 .about-text h1 {
     text-transform: uppercase;
-    color: grey;
+    color: #3c93f0;
+    font-size: 2rem;
     margin: 25px auto;
 }
 
@@ -133,6 +133,7 @@ nav {
 .services h1  {
     text-transform: uppercase;
     color: #007BFF;    
+    font-size: 28px;
 }
 
 
@@ -191,6 +192,11 @@ nav {
 .experience h1{
     text-transform: uppercase;
     color: #007BFF;
+    font-size: 28px;
+}
+
+.text{
+    margin-left: 7rem;
 }
 
 .experience-wrapper:before {
@@ -201,7 +207,7 @@ nav {
     margin-left: -0.0625;
     width: 0.125rem;
     height: 100%;
-    background-color: #007BFF;
+    background-color: #f9ba00;
     z-index: 1;
 }
 
@@ -256,11 +262,12 @@ nav {
     color: #3c93f0;
     padding: 1.3rem 0;
     text-transform: uppercase;
+    font-size: 28px;
   }
   
   .contacts p {
-    color: #ffffff !important;
-    font-size: 1.2rem;
+    color: #f9ba00 !important;
+    font-size: 18px;
   }
   
   /*------------------ INPUTS -------------------------------*/
@@ -297,6 +304,11 @@ nav {
     margin: 1rem 0 0 0;
     width: 100%;
     background: none;
+    background-color: #3c93f0;
+  }
+
+  .contact-btn:hover{
+      background-color: #007BFF;
   }
   
   .line {

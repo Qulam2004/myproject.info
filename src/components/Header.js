@@ -11,7 +11,7 @@ function Header() {
                     strings={[
                         'Front-End Junior',
                         'Web Proqramçı',
-                        'HTML,CSS,JAVASCRIPT,REACTJS'
+                        'HTML,CSS,JAVASCRIPT,REACT'
                     ]}
                     typeSpeed={40}
                     backSpeed={30}
