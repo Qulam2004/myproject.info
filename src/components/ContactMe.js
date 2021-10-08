@@ -23,7 +23,7 @@ const ContactMe = () => {
 
 
     return (
-        <div className="contacts">
+        <div id="contactme" className="contacts">
             <div className="text-center">
                 <h1>Bizimlə əlaqə</h1>
                 <p>Zəhmət olmasa, müraciətiniz və özünüzlə bağlı məlumatları tam dəqiq şəkildə doldurun. Mümkün olduqca sizinlə tez bir zamanda əlaqə saxlanılacaq!</p>

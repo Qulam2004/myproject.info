@@ -3,7 +3,7 @@ import Typed from 'react-typed'
 
 function Header() {
     return (
-        <div className="header">
+        <div id="home" className="header">
             <div className="header-info">
                 <h1>Qulamzadə Qulamın Rəsmi veb səhifəsi</h1>
                 <Typed
@@ -18,8 +18,6 @@ function Header() {
                     loop >
 
                 </Typed>
-
-                <a link="#" className='button'>ƏLAQƏ</a>
             </div>
         </div>
     )

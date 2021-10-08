@@ -14,12 +14,12 @@ nav {
 }
 
 .nav-link {
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 3rem;
 }
 
 .nav-link {
-    border:2px solid #343A40;    
+    border:3px solid #343A40;    
 }
 
 .nav-link:hover {
@@ -56,7 +56,7 @@ nav {
     top: 0%;
     left: 0%;
     right: 0%;
-    bottom: 0%;
+    bottom: 5%;
 }
 
 .header-info h1 {
@@ -334,16 +334,49 @@ nav {
     margin: -0.3rem 0;
   }
 
-  .error-message {
-    color: #666666;
-    background: #f9ba00;
-    text-align: left;
-  }
-  
-  .success-message {
-    font-weight: 900;
-    color: #1eb810;
-  }
+/* Footer style  */
+
+.footer{
+    background: #57606f;
+    color: #000000;
+    padding: 3rem;
+}
+
+.footer a{
+    color: #f9ba00;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: #2ecc71;
+    cursor: pointer;
+}
+
+.footer p{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
