@@ -11,7 +11,7 @@ const Experience = () => {
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content text">
-                        <h3>2013-2021</h3>  
+                        <h3>2010-2021</h3>  
                         <p>123№ tam orta məktəbini bitirdim.</p>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import NavbarLogo from '../logo.png'
 import {Link} from 'react-scroll'
 // FontAwesome icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,7 +8,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 function Navbar() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
-      <a className="navbar-brand" href="#"><img className="logo" src={NavbarLogo}></img></a>
+      <a className="navbar-brand" href="#" style={{ fontFamily:'Cinzel' }}><span style={{ color:'blue'}}>QUL</span><span style={{ color:'red'}}>AMZ</span><span style={{ color:'green'}}>ADE .</span></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <FontAwesomeIcon icon={faBars} style={{ color: 'blue' }} />
       </button>

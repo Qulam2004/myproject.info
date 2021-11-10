@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 .logo {
  width: 185px;
@@ -15,7 +16,7 @@ nav {
 
 .nav-link {
     font-size: 13px;
-    margin-left: 3rem;
+    margin-left: 4rem;
 }
 
 .nav-link {
@@ -32,6 +33,14 @@ nav {
 
 .navbar {
     width: 101vw;
+}
+
+.navbar-brand {
+    margin: 5px;
+}
+
+.navbar-nav {
+    padding-left: 5rem;
 }
 
 /* Header kampanentinin style */
@@ -349,7 +358,7 @@ nav {
 
 .footer a:hover{
     text-decoration: none;
-    color: #2ecc71;
+    color: #fff;
     cursor: pointer;
 }
 
